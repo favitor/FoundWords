@@ -1,0 +1,27 @@
+{
+    "viagem": [
+        {
+            "pergunta": "Minha viagem foi cancelado o que devo fazer?",
+            "resposta": "smt"  
+        },
+
+        {
+            "pergunta": "Minha viagem foi remarcada, e não aceito, essa mudança",
+            "resposta": "vtnc"  
+        }
+    ],
+
+    "produtos": [
+      {
+        "pergunta": "Meu produto está em atraso",
+        "reposta": "Verificar se há novo prazo de entrega"
+      },
+
+      {
+        "pergunta": "Meu produto veio com defeito/avariado",
+        "reposta": "Verificar troca ou devolução"
+      }
+    ]
+
+}
+  

@@ -1,0 +1,37 @@
+{
+    "pedidos": [
+      {
+        "ID": 1,
+        "ID2": 1001,
+        "descricao": "Pedido de suprimentos de escritório",
+        "produto": "Canetas",
+        "status": "",
+        "previsao_entrega": "01/10/2024"
+      },
+      {
+        "ID": 2,
+        "ID2": 1002,
+        "descricao": "Pedido de equipamentos de TI",
+        "produto": [],
+        "status": "Em transporte",
+        "previsao_entrega": "23/06/2024"
+      },
+      {
+        "ID": 3,
+        "ID2": null,
+        "descricao": "Pedido de materiais de limpeza",
+        "produto": "Detergente",
+        "status": "Entregue",
+        "previsao_entrega": "05/12/2024"
+      },
+      {
+        "ID": 4,
+        "ID2": 1004,
+        "descricao": "Pedido de materiais de limpeza",
+        "produto": "Detergente",
+        "status": "Em transporte",
+        "previsao_entrega": "09/11/2024"
+      }
+    ]
+  }
+  
