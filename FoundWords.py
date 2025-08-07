@@ -1,11 +1,15 @@
 import speech_recognition as sr
 import json
+from transformers import pipeline
 
 
 filename = "./audiotest1.wav"
 rec = sr.Recognizer()
 list_words = ['voo', 'viagem', 'viagens', 'passagem', 'embarque', 'check in', 'bagagem', 'Casas Bahia', 'Extra']
 json_file = "./infos.json"
+
+#Pipeline analise de sentimentos
+sentiment_analyzer = pipeline("sentiment-analysis")
 
 
 #Função pegar audio em tempo real do microfone
@@ -64,3 +68,6 @@ with open(json_file, 'r', encoding='utf-8') as arq:
 #Chamando funções
 help = get_info(find_word, json_data)
 print(help)
+
+humor = sentiment_analyzer(text)
+print("O humor da voz é: ", humor)
